@@ -65,10 +65,6 @@ In voice authentication, negative detection focuses on identifying the absence o
 4. **Decision Making**: If the features are absent or below the threshold, flag the voice as potentially AI-generated.
 5. **Authentication Outcome**: Accept or reject the authentication attempt based on the detection results.
 
-#### Diagram: Negative Detection Workflow
-
-*(Note: As an AI language model developed by OpenAI, I cannot create images, but you can include a flowchart illustrating the above steps in your documentation.)*
-
 ---
 
 ## Comparison with Positive Detection
