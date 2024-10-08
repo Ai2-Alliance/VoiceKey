@@ -1,4 +1,4 @@
-# VoiceKey: Advancing Secure Voice Authentication through Negative Detection
+# VoiceKey: Negative Detection of AI to Confirm Human Voice Authenticity
 
 **An AI Integrity Alliance Initiative**
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-**VoiceKey** is a research initiative and open-source project aimed at developing a robust voice authentication system leveraging the unique randomness properties of the human voice. By utilizing the concept of negative detection and integrating advanced technologies such as Zero-Knowledge Proofs (ZKPs), blockchain, and analog voice verification, VoiceKey seeks to create a secure, privacy-preserving, and computationally efficient authentication mechanism.
+**VoiceKey** is a research initiative and open-source project aimed at developing a robust voice authentication system leveraging the unique randomness properties of the human voice. By utilizing the concept of negative detection and integrating advanced technologies such as Zero-Knowledge Proofs (ZKPs), blockchain, and analog voice verification, VoiceKey seeks to create a secure, privacy-preserving, and computationally efficient authentication mechanism to securely verify proof of humanity. 
 
 This project invites global researchers and practitioners to collaborate, analyze, and enhance the methodology, contributing to the advancement of secure authentication standards worldwide.
 
