@@ -33,13 +33,12 @@ This document compiles all the references used in the VoiceKey project, organize
 
 ## Concept of Negative Detection
 
-1. **Forno, R., & Clark, C. (2024).** Negative Detection Methods in Voice Authentication. *Journal of Cybersecurity Research*, 12(3), 45-60.
-2. **Axelsson, S. (2000).** Intrusion detection systems: A survey and taxonomy. *Technical Report*, Chalmers University of Technology.
-3. **Chandola, V., Banerjee, A., & Kumar, V. (2009).** Anomaly detection: A survey. *ACM Computing Surveys*, 41(3), 15.
-4. **Ghafurian, S., & Zou, C. C. (2016).** A survey on botnet architectures, detection and defense strategies. *International Journal of Network Security*, 18(2), 329-344.
-5. **He, H., & Garcia, E. A. (2009).** Learning from imbalanced data. *IEEE Transactions on Knowledge and Data Engineering*, 21(9), 1263-1284.
-6. **Kumar, S., & Spafford, E. H. (1995).** A pattern matching model for misuse intrusion detection. *Proceedings of the 17th National Computer Security Conference*, 11-21.
-7. **Sommer, R., & Paxson, V. (2010).** Outside the closed world: On using machine learning for network intrusion detection. *2010 IEEE Symposium on Security and Privacy*, 305-316.
+1. **Axelsson, S. (2000).** Intrusion detection systems: A survey and taxonomy. *Technical Report*, Chalmers University of Technology.
+2. **Chandola, V., Banerjee, A., & Kumar, V. (2009).** Anomaly detection: A survey. *ACM Computing Surveys*, 41(3), 15.
+3. **Ghafurian, S., & Zou, C. C. (2016).** A survey on botnet architectures, detection and defense strategies. *International Journal of Network Security*, 18(2), 329-344.
+4. **He, H., & Garcia, E. A. (2009).** Learning from imbalanced data. *IEEE Transactions on Knowledge and Data Engineering*, 21(9), 1263-1284.
+5. **Kumar, S., & Spafford, E. H. (1995).** A pattern matching model for misuse intrusion detection. *Proceedings of the 17th National Computer Security Conference*, 11-21.
+6. **Sommer, R., & Paxson, V. (2010).** Outside the closed world: On using machine learning for network intrusion detection. *2010 IEEE Symposium on Security and Privacy*, 305-316.
 
 ---
 
