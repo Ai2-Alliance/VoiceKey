@@ -17,9 +17,6 @@
 5. [Implications for VoiceKey Security](#implications-for-voicekey-security)
    - 5.1 [Defender's Computational Advantage](#defenders-computational-advantage)
    - 5.2 [Strategies for Maintaining Security Over Time](#strategies-for-maintaining-security-over-time)
-6. [Code Examples](#code-examples)
-   - 6.1 [Compute Growth Simulation](#compute-growth-simulation)
-   - 6.2 [Bypass Probability Modeling](#bypass-probability-modeling)
 7. [Conclusion](#conclusion)
 8. [References](#references)
 9. [Contact Information](#contact-information)
@@ -71,29 +68,6 @@ Assuming a consistent exponential growth rate, we can model compute resources ov
   - \( C_0 \) = Initial compute capacity
   - \( T_d \) = Doubling period (1.5 years)
   - \( t \) = Time in years
-
-#### Compute Capacity at Specific Intervals
-
-1. **At 1 Year** (\( t = 1 \)):
-   \[
-   C(1) = C_0 \times 2^{(1 / 1.5)} \approx C_0 \times 2^{0.6667} \approx C_0 \times 1.587
-   \]
-2. **At 5 Years** (\( t = 5 \)):
-   \[
-   C(5) = C_0 \times 2^{(5 / 1.5)} \approx C_0 \times 2^{3.3333} \approx C_0 \times 10
-   \]
-3. **At 10 Years** (\( t = 10 \)):
-   \[
-   C(10) = C_0 \times 2^{(10 / 1.5)} \approx C_0 \times 2^{6.6667} \approx C_0 \times 100
-   \]
-4. **At 50 Years** (\( t = 50 \)):
-   \[
-   C(50) = C_0 \times 2^{(50 / 1.5)} \approx C_0 \times 2^{33.3333} \approx C_0 \times 1.07 \times 10^{10}
-   \]
-5. **At 100 Years** (\( t = 100 \)):
-   \[
-   C(100) = C_0 \times 2^{(100 / 1.5)} \approx C_0 \times 2^{66.6667} \approx C_0 \times 1.15 \times 10^{20}
-   \]
 
 #### Logarithmic Representation
 
@@ -193,85 +167,6 @@ Assuming a consistent exponential growth rate, we can model compute resources ov
 3. **Quantum-Resistant Protocols**: Develop protocols that remain secure even in the presence of quantum computing capabilities.
 4. **Multi-Modal Authentication**: Combine voice authentication with other biometric factors to enhance security.
 5. **Community Collaboration**: Engage with the global research community to stay ahead of emerging threats.
-
----
-
-## Code Examples
-
-### Compute Growth Simulation
-
-The following Python code simulates compute growth over 100 years using a logarithmic scale.
-
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-
-# Initial compute power (FLOPS)
-C0 = 1e18  # 1 exaFLOP
-
-# Doubling period (years)
-Td = 1.5
-
-# Time points (years)
-time_years = np.array([0, 1, 5, 10, 50, 100])
-
-# Compute capacity at each time point
-compute_capacity = C0 * 2 ** (time_years / Td)
-
-# Logarithmic values
-log_compute_capacity = np.log10(compute_capacity)
-
-# Print results
-for t, C, logC in zip(time_years, compute_capacity, log_compute_capacity):
-    print(f"Year {int(t)}: Compute Capacity = {C:.2e} FLOPS, log10(C) = {logC:.2f}")
-
-# Plotting
-plt.figure(figsize=(8, 6))
-plt.plot(time_years, log_compute_capacity, marker='o')
-plt.title('Compute Capacity Growth Over 100 Years (Logarithmic Scale)')
-plt.xlabel('Time (Years)')
-plt.ylabel('log10(Compute Capacity in FLOPS)')
-plt.grid(True)
-plt.show()
-```
-
-#### Output
-
-```
-Year 0: Compute Capacity = 1.00e+18 FLOPS, log10(C) = 18.00
-Year 1: Compute Capacity = 1.59e+18 FLOPS, log10(C) = 18.20
-Year 5: Compute Capacity = 1.00e+19 FLOPS, log10(C) = 19.00
-Year 10: Compute Capacity = 1.00e+20 FLOPS, log10(C) = 20.00
-Year 50: Compute Capacity = 1.07e+28 FLOPS, log10(C) = 28.03
-Year 100: Compute Capacity = 1.15e+38 FLOPS, log10(C) = 38.06
-```
-
-### Bypass Probability Modeling
-
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-
-# Time points (years)
-time_years = np.array([1, 5, 10, 50, 100])
-
-# Estimated bypass probabilities (%)
-bypass_probabilities = np.array([0.1, 0.5, 2, 25, 60])  # Adjusted for impact
-
-# Plotting
-plt.figure(figsize=(8, 6))
-plt.semilogx(time_years, bypass_probabilities, marker='o')
-plt.title('Bypass Probabilities Over Time')
-plt.xlabel('Time (Years)')
-plt.ylabel('Bypass Probability (%)')
-plt.grid(True, which='both', linestyle='--')
-plt.show()
-```
-
-#### Explanation
-
-- **semilogx Plot**: Uses a logarithmic scale for the x-axis (time), which helps visualize changes over exponentially increasing time intervals.
-- **Bypass Probabilities**: Estimated values for the probability of successfully bypassing VoiceKey at each time point.
 
 ---
 
