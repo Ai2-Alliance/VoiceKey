@@ -196,7 +196,7 @@ A comprehensive list of academic papers, industry reports, and relevant literatu
 
 ## Contributing
 
-We welcome contributions from the community. Please read our [Contributing Guidelines](CONTRIBUTING.md) to get started.
+We welcome contributions from the community. Please read our [Contributing Guidelines](docs/collaboration.md) to get started.
 
 ---
 
