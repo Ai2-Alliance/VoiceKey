@@ -202,7 +202,7 @@ We welcome contributions from the community. Please read our [Contributing Guide
 
 ## License
 
-VoiceKey is released under the [MIT License](LICENSE), promoting open collaboration and sharing.
+VoiceKey is released under the [MIT License](https://opensource.org/license/mit), promoting open collaboration and sharing.
 
 ---
 
@@ -255,44 +255,6 @@ We extend our gratitude to all contributors and collaborators who have dedicated
 ---
 
 **Note**: This README is designed to be accessible to open-source engineers while providing links to more detailed, PhD-level documentation appropriate for academic and professional research.
-
----
-
-# Updated Detailed Sections
-
-Below are the updated detailed sections incorporating the latest revisions:
-
----
-
-## Privacy Preservation with ZKP and Blockchain
-
-**[Download Full Document](docs/zkp_blockchain.md)**
-
-This document explores how Zero-Knowledge Proofs and blockchain technology are integrated into VoiceKey to enhance privacy during the pre-selection MFA phase and protect user identification information. It also emphasizes the importance of analog voice verification near the KeyVoice analyzer to capture the full depth of human voice characteristics essential for robust authentication.
-
----
-
-## Compute Resource Expenditures and Bypass Probabilities
-
-**[Download Full Document](docs/compute_analysis.md)**
-
-An updated assessment of the computational resources required by both defenders and potential attackers, considering exponential compute growth over the next 100 years. It includes estimates at specific intervals (1, 5, 10, 50, and 100 years) and analyzes the system's robustness against future technological advancements.
-
----
-
-## Potential Bypass Methodologies and Security Considerations
-
-**[Download Full Document](docs/bypass_methodologies.md)**
-
-An analysis of potential bypass methodologies and attack vectors targeting the VoiceKey system, including side-channel attacks and novel strategies. The document provides insights to enhance the security measures implemented within the system to protect against evolving threats.
-
----
-
-## Call for Global Collaboration
-
-**[Contributing Guidelines](CONTRIBUTING.md)**
-
-Join the AI Integrity Alliance in advancing VoiceKey. This document provides information on how to contribute, including collaboration opportunities, coding standards, submission processes, and contact information.
 
 ---
 
