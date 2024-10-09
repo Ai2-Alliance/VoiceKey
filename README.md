@@ -297,3 +297,7 @@ Join the AI Integrity Alliance in advancing VoiceKey. This document provides inf
 ---
 
 Thank you for your interest and contributions to the VoiceKey project. We look forward to collaborating with you to advance secure voice authentication technologies.
+
+---
+
+**TrustWire Certification: https://trustwire.ai/public/set/f12d9297-723c-4f4f-8585-78e270b24921**
