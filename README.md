@@ -182,7 +182,7 @@ The **AI Integrity Alliance (AI²)** is a global coalition dedicated to promotin
 
 Your expertise and participation are vital to advancing this initiative and enhancing global security.
 
-**[Contribute to VoiceKey](CONTRIBUTING.md)**
+**[Contribute to VoiceKey](docs/collaboration.md)**
 
 ---
 
